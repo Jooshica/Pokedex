@@ -6,6 +6,7 @@
 
     <link rel="icon" href="./favicons/favicon-16x16.png">
     <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
 
     <title>Pokédex</title>
 </head>
@@ -13,11 +14,20 @@
 
     <main>
 
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif" alt="pokemon" class="pokemon__img">
+        <img src="#" alt="pokemon" class="pokemon__img">
 
         <h1 class="pokemon_data">
-            <span class="pokemon_n">6</span> - <span class="pokemon_name">charizard</span>
+            <span class="pokemon_n"></span> - <span class="pokemon_name"></span>
         </h1>
+
+        <form class="form">
+            <input type="search" class="input_search" placeholder="Pesquise por nome ou número" required />
+        </form>
+
+        <div class="buttons">
+            <button class="button btn-prev"> &lt; </button>
+            <button class="button btn-next"> &gt; </button>
+        </div>
 
         <img src="./images/pokedex.png" alt="pokedex" class="pokedex">
 
